@@ -114,6 +114,8 @@ Each generation was scored on a 1–10 scale across multiple dimensions:
 | Vidu Q3-Pro (Whitelisted) | `vidu-q3-pro` | $0.06 | 540p, 720p, 1080p | 4s, 8s |
 | Vidu Q3-Turbo (Whitelisted) | `vidu-q3-turbo` | $0.034 | 540p, 720p, 1080p | 4s, 8s |
 
+> ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
+
 **6 Image Models:**
 
 | Model | Atlas Cloud ID | Price/Gen | Max Resolution |
@@ -508,6 +510,8 @@ We tested each model's NSFW writing capability in English, Chinese, Japanese, an
 | **Seedream v5.0 (Whitelisted)** | Not available | **$0.032/img** | Atlas exclusive |
 | **Vidu Q3-Pro (Whitelisted)** | Not available | **$0.06/req** | Atlas exclusive |
 | **Vidu Q3-Turbo (Whitelisted)** | Not available | **$0.034/req** | Atlas exclusive |
+
+> ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
 > 🏆 **Atlas Cloud is the ONLY platform** offering Wan 2.2 Spicy, and the only provider with **whitelisted access** to Seedance, Kling, Vidu, and Seedream for NSFW content generation.
 
