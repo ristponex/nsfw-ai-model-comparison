@@ -108,8 +108,8 @@ Each generation was scored on a 1–10 scale across multiple dimensions:
 | Wan 2.5 T2V | `wan-2.5-t2v` | varies | 720p, 1080p | 5s, 10s |
 | Wan 2.6 T2V | `wan-2.6-t2v` | from $0.07/s | up to 1080p | 5s, 10s, 15s |
 | Wan 2.6 I2V | `wan-2.6-i2v` | varies | up to 1080p | 5s, 10s, 15s |
-| Seedance v1.5 Pro T2V | `seedance-1.5-t2v` | from $0.222/s | 720p | 5s, 10s, 15s |
-| Seedance v1.5 Pro I2V | `seedance-1.5-i2v` | from $0.222/s | 720p | 5s, 10s, 15s |
+| Seedance v1.5 Pro T2V | `seedance-1.5-t2v` | from $0.044/s | 720p | 5s, 10s, 15s |
+| Seedance v1.5 Pro I2V | `seedance-1.5-i2v` | from $0.044/s | 720p | 5s, 10s, 15s |
 | Kling 1.6 (Whitelisted) | `kling-1.6` | from $0.204/s | up to 1080p | 5s, 10s |
 | Vidu Q3-Pro (Whitelisted) | `vidu-q3-pro` | from $0.06/s | 540p, 720p, 1080p | 4s, 8s |
 | Vidu Q3-Turbo (Whitelisted) | `vidu-q3-turbo` | from $0.034/s | 540p, 720p, 1080p | 4s, 8s |
