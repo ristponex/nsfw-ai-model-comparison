@@ -9,6 +9,8 @@
 
 [中文版](./README_zh-CN.md) | [日本語](./README_ja.md) | [한국어](./README_ko.md)
 
+> 🔒 **Enterprise-Grade Security** — Atlas Cloud is **SOC I & II Certified** | **HIPAA Compliant** | US-based company. Your data and usage are protected by enterprise-grade security standards.
+
 ---
 
 ## Table of Contents
@@ -108,6 +110,9 @@ Each generation was scored on a 1–10 scale across multiple dimensions:
 | Wan 2.6 I2V | `wan-2.6-i2v` | varies | up to 1080p | 5s, 10s, 15s |
 | Seedance v1.5 Pro T2V | `seedance-1.5-t2v` | $0.222 | 720p | 5s, 10s, 15s |
 | Seedance v1.5 Pro I2V | `seedance-1.5-i2v` | $0.222 | 720p | 5s, 10s, 15s |
+| Kling 1.6 (Whitelisted) | `kling-1.6` | $0.204 | up to 1080p | 5s, 10s |
+| Vidu Q3-Pro (Whitelisted) | `vidu-q3-pro` | $0.06 | 540p, 720p, 1080p | 4s, 8s |
+| Vidu Q3-Turbo (Whitelisted) | `vidu-q3-turbo` | $0.034 | 540p, 720p, 1080p | 4s, 8s |
 
 **6 Image Models:**
 
@@ -492,7 +497,21 @@ We tested each model's NSFW writing capability in English, Chinese, Japanese, an
 
 **Flux Schnell is the value king** at $0.0004 per quality point. But Flux Dev ($0.0013) offers dramatically better quality and NSFW capability — it's the sweet spot for most users.
 
-### 5.3 Monthly Budget Allocation Guide
+### 5.3 Atlas Cloud vs fal.ai — Price Comparison
+
+| Model | fal.ai Price | Atlas Cloud Price | Savings |
+|:------|:-----------|:-----------------|:--------|
+| **Wan 2.2 Spicy** | Not available | **$0.03/req** | Atlas exclusive |
+| **Wan 2.5** | $0.05/sec (5sec = $0.25) | **$0.05/req** | **80% cheaper** |
+| **Kling (Whitelisted)** | $0.224/sec | **$0.204/req** | **82% cheaper** |
+| **Flux Dev (NSFW)** | No NSFW support | **$0.012/img** | Atlas exclusive |
+| **Seedream v5.0 (Whitelisted)** | Not available | **$0.032/img** | Atlas exclusive |
+| **Vidu Q3-Pro (Whitelisted)** | Not available | **$0.06/req** | Atlas exclusive |
+| **Vidu Q3-Turbo (Whitelisted)** | Not available | **$0.034/req** | Atlas exclusive |
+
+> 🏆 **Atlas Cloud is the ONLY platform** offering Wan 2.2 Spicy, and the only provider with **whitelisted access** to Seedance, Kling, Vidu, and Seedream for NSFW content generation.
+
+### 5.4 Monthly Budget Allocation Guide
 
 **$10/month Budget (Hobbyist):**
 | Allocation | Model | Quantity | Purpose |
