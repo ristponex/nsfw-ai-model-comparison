@@ -100,19 +100,21 @@ Each generation was scored on a 1–10 scale across multiple dimensions:
 
 **8 Video Models:**
 
-| Model | Atlas Cloud ID | Price/Gen | Resolution Options | Duration Options |
+| Model | Atlas Cloud ID | Starting Price | Resolution Options | Duration Options |
 |-------|---------------|-----------|-------------------|-----------------|
-| Wan 2.2 Spicy I2V | `wan-2.2-spicy-i2v` | $0.03 | 480p, 720p | 5s, 8s |
-| Wan 2.2 Spicy LoRA | `wan-2.2-spicy-lora` | $0.03 | 480p, 720p | 5s, 8s |
+| Wan 2.2 Spicy I2V | `wan-2.2-spicy-i2v` | from $0.03/s | 480p, 720p | 5s, 8s |
+| Wan 2.2 Spicy LoRA | `wan-2.2-spicy-lora` | from $0.03/s | 480p, 720p | 5s, 8s |
 | Wan 2.5 I2V | `wan-2.5-i2v` | varies | 720p, 1080p | 5s, 10s |
 | Wan 2.5 T2V | `wan-2.5-t2v` | varies | 720p, 1080p | 5s, 10s |
-| Wan 2.6 T2V | `wan-2.6-t2v` | $0.07 | up to 1080p | 5s, 10s, 15s |
+| Wan 2.6 T2V | `wan-2.6-t2v` | from $0.07/s | up to 1080p | 5s, 10s, 15s |
 | Wan 2.6 I2V | `wan-2.6-i2v` | varies | up to 1080p | 5s, 10s, 15s |
-| Seedance v1.5 Pro T2V | `seedance-1.5-t2v` | $0.222 | 720p | 5s, 10s, 15s |
-| Seedance v1.5 Pro I2V | `seedance-1.5-i2v` | $0.222 | 720p | 5s, 10s, 15s |
-| Kling 1.6 (Whitelisted) | `kling-1.6` | $0.204 | up to 1080p | 5s, 10s |
-| Vidu Q3-Pro (Whitelisted) | `vidu-q3-pro` | $0.06 | 540p, 720p, 1080p | 4s, 8s |
-| Vidu Q3-Turbo (Whitelisted) | `vidu-q3-turbo` | $0.034 | 540p, 720p, 1080p | 4s, 8s |
+| Seedance v1.5 Pro T2V | `seedance-1.5-t2v` | from $0.222/s | 720p | 5s, 10s, 15s |
+| Seedance v1.5 Pro I2V | `seedance-1.5-i2v` | from $0.222/s | 720p | 5s, 10s, 15s |
+| Kling 1.6 (Whitelisted) | `kling-1.6` | from $0.204/s | up to 1080p | 5s, 10s |
+| Vidu Q3-Pro (Whitelisted) | `vidu-q3-pro` | from $0.06/s | 540p, 720p, 1080p | 4s, 8s |
+| Vidu Q3-Turbo (Whitelisted) | `vidu-q3-turbo` | from $0.034/s | 540p, 720p, 1080p | 4s, 8s |
+
+*Video model prices are per second of generated video. Actual cost depends on resolution and duration selected.*
 
 > ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
@@ -503,13 +505,15 @@ We tested each model's NSFW writing capability in English, Chinese, Japanese, an
 
 | Model | fal.ai Price | Atlas Cloud Price | Savings |
 |:------|:-----------|:-----------------|:--------|
-| **Wan 2.2 Spicy** | Not available | **$0.03/req** | Atlas exclusive |
-| **Wan 2.5** | $0.05/sec (5sec = $0.25) | **$0.05/req** | **80% cheaper** |
-| **Kling (Whitelisted)** | $0.224/sec | **$0.204/req** | **82% cheaper** |
-| **Flux Dev (NSFW)** | No NSFW support | **$0.012/img** | Atlas exclusive |
-| **Seedream v5.0 (Whitelisted)** | Not available | **$0.032/img** | Atlas exclusive |
-| **Vidu Q3-Pro (Whitelisted)** | Not available | **$0.06/req** | Atlas exclusive |
-| **Vidu Q3-Turbo (Whitelisted)** | Not available | **$0.034/req** | Atlas exclusive |
+| **Wan 2.2 Spicy** | Not available | **from $0.03/s** | Atlas exclusive |
+| **Wan 2.5** | $0.05/sec (5sec = $0.25) | **from $0.05/s** | **80% cheaper** |
+| **Kling (Whitelisted)** | $0.224/sec | **from $0.204/s** | **82% cheaper** |
+| **Flux Dev (NSFW)** | No NSFW support | **from $0.012/image** | Atlas exclusive |
+| **Seedream v5.0 (Whitelisted)** | Not available | **from $0.032/image** | Atlas exclusive |
+| **Vidu Q3-Pro (Whitelisted)** | Not available | **from $0.06/s** | Atlas exclusive |
+| **Vidu Q3-Turbo (Whitelisted)** | Not available | **from $0.034/s** | Atlas exclusive |
+
+*Prices shown are starting prices. Higher resolution or longer duration may cost more.*
 
 > ⚠️ **Note:** Vidu Q3 models may add mosaic/blur to certain NSFW scenes due to training data limitations. Not guaranteed 100% uncensored. For reliable uncensored output, use **Wan 2.2 Spicy** ($0.03) or **Wan 2.6** ($0.07).
 
@@ -592,7 +596,7 @@ We tested each model's NSFW writing capability in English, Chinese, Japanese, an
 **Recommended Stack:**
 | Role | Model | Why |
 |------|-------|-----|
-| Everything video | Wan 2.2 Spicy I2V | $0.03/video, maximum NSFW |
+| Everything video | Wan 2.2 Spicy I2V | from $0.03/s, maximum NSFW |
 | Everything image | Flux Dev | $0.012/image, full capability |
 | Story/prompts | DeepSeek V3.2 | Cheapest and best |
 
@@ -855,7 +859,7 @@ T15: Write an explicit scene with very specific physical details — exact
 
 ### "What's the cheapest way to generate NSFW videos?"
 
-**Wan 2.2 Spicy I2V at $0.03/video.** At 480p/5s, you get the maximum NSFW content for the minimum price. For $1, you can generate 33 videos. No other model offers this price-to-NSFW ratio.
+**Wan 2.2 Spicy I2V from $0.03/s.** At 480p/5s, you get the maximum NSFW content for the minimum price. For $1, you can generate 33 videos. No other model offers this price-to-NSFW ratio.
 
 ### "Wan Spicy vs Wan 2.6 — which should I use?"
 
