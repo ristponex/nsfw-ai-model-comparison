@@ -3,9 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Models Tested](https://img.shields.io/badge/Models%20Tested-17-blue)]()
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-March%202026-green)]()
-[![Platform](https://img.shields.io/badge/Platform-Atlas%20Cloud-purple)](https://www.atlascloud.ai?ref=JPM683)
+[![Platform](https://img.shields.io/badge/Platform-Atlas%20Cloud-purple)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison)
 
-> **An independent, data-driven benchmark of 17 AI models for adult content generation — video, image, and text. All tests run on [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) between January and March 2026.**
+> **An independent, data-driven benchmark of 17 AI models for adult content generation — video, image, and text. All tests run on [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison) between January and March 2026.**
 
 [中文版](./README_zh-CN.md) | [日本語](./README_ja.md) | [한국어](./README_ko.md)
 
@@ -48,7 +48,7 @@
 
 ### 1.1 Testing Environment
 
-All models were accessed through the [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683) between January 15 and March 5, 2026. No local inference was performed — every result comes from the cloud API endpoints.
+All models were accessed through the [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison) between January 15 and March 5, 2026. No local inference was performed — every result comes from the cloud API endpoints.
 
 - **API Platform**: Atlas Cloud (unified API for all models)
 - **Test Period**: Jan 15 – Mar 5, 2026
@@ -661,7 +661,7 @@ We tested each model's NSFW writing capability in English, Chinese, Japanese, an
 
 ## 7. Test Prompts Used
 
-> **Reproduction note:** All prompts below were tested on [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683). Results may vary on other platforms due to different safety configurations.
+> **Reproduction note:** All prompts below were tested on [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison). Results may vary on other platforms due to different safety configurations.
 
 ### 7.1 Video Test Prompts (24 prompts)
 
@@ -899,7 +899,7 @@ Check each model's license:
 
 ### "How does Atlas Cloud compare to running models locally?"
 
-Key advantages of [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683):
+Key advantages of [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison):
 - **No GPU required** — access A100/H100-class inference without hardware
 - **All models in one API** — switch between 17+ models without setup
 - **NSFW unlocked** — safety filters disabled or configurable
@@ -914,7 +914,7 @@ All models in this comparison are available on **Atlas Cloud** with NSFW capabil
 
 ### Quick Start
 
-1. **Sign up at [atlascloud.ai](https://www.atlascloud.ai?ref=JPM683)**
+1. **Sign up at [atlascloud.ai](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison)**
 2. **Get 25% bonus credits** on your first top-up using the link above
 3. **Access any model** through the unified API
 4. **Set `safety_checker=false`** for Flux models to enable full NSFW
@@ -960,7 +960,7 @@ response = requests.post(
 )
 ```
 
-[![Sign Up for Atlas Cloud](https://img.shields.io/badge/Sign%20Up-Atlas%20Cloud-blue?style=for-the-badge)](https://www.atlascloud.ai?ref=JPM683)
+[![Sign Up for Atlas Cloud](https://img.shields.io/badge/Sign%20Up-Atlas%20Cloud-blue?style=for-the-badge)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison)
 
 ---
 
@@ -1032,5 +1032,5 @@ SOFTWARE.
 ---
 
 <p align="center">
-  <i>Last updated: March 2026 | All tests run on <a href="https://www.atlascloud.ai?ref=JPM683">Atlas Cloud</a></i>
+  <i>Last updated: March 2026 | All tests run on <a href="https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison">Atlas Cloud</a></i>
 </p>

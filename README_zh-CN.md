@@ -3,9 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Models Tested](https://img.shields.io/badge/测试模型-17个-blue)]()
 [![Last Updated](https://img.shields.io/badge/最近更新-2026年3月-green)]()
-[![Platform](https://img.shields.io/badge/平台-Atlas%20Cloud-purple)](https://www.atlascloud.ai?ref=JPM683)
+[![Platform](https://img.shields.io/badge/平台-Atlas%20Cloud-purple)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison)
 
-> **一份独立、数据驱动的 17 个 AI 模型成人内容生成能力基准测试报告 — 涵盖视频、图片和文本。所有测试均在 2026 年 1 月至 3 月期间通过 [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) 完成。**
+> **一份独立、数据驱动的 17 个 AI 模型成人内容生成能力基准测试报告 — 涵盖视频、图片和文本。所有测试均在 2026 年 1 月至 3 月期间通过 [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison) 完成。**
 
 [English](./README.md) | [日本語](./README_ja.md) | [한국어](./README_ko.md)
 
@@ -50,7 +50,7 @@
 
 ### 1.1 测试环境
 
-所有模型均在 2026 年 1 月 15 日至 3 月 5 日期间通过 [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683) 访问，未进行本地推理。
+所有模型均在 2026 年 1 月 15 日至 3 月 5 日期间通过 [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison) 访问，未进行本地推理。
 
 - **API 平台**：Atlas Cloud（所有模型统一 API）
 - **测试周期**：2026年1月15日 - 3月5日
@@ -537,7 +537,7 @@
 
 ## 7. 测试提示词完整列表
 
-> **复现说明：** 以下所有提示词均在 [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683) 上测试。其他平台结果可能因安全配置不同而异。
+> **复现说明：** 以下所有提示词均在 [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison) 上测试。其他平台结果可能因安全配置不同而异。
 
 ### 7.1 视频测试提示词（24 个）
 
@@ -635,7 +635,7 @@ T01-T15: [详见英文版完整提示词]
 
 ### 快速开始
 
-1. **在 [atlascloud.ai](https://www.atlascloud.ai?ref=JPM683) 注册**
+1. **在 [atlascloud.ai](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison) 注册**
 2. **首次充值获得 25% 额外积分**
 3. **通过统一 API 访问任何模型**
 4. **Flux 模型设置 `safety_checker=false`** 启用完全 NSFW
@@ -681,7 +681,7 @@ response = requests.post(
 )
 ```
 
-[![注册 Atlas Cloud](https://img.shields.io/badge/注册-Atlas%20Cloud-blue?style=for-the-badge)](https://www.atlascloud.ai?ref=JPM683)
+[![注册 Atlas Cloud](https://img.shields.io/badge/注册-Atlas%20Cloud-blue?style=for-the-badge)](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison)
 
 ---
 
@@ -711,5 +711,5 @@ response = requests.post(
 ---
 
 <p align="center">
-  <i>最近更新：2026年3月 | 所有测试在 <a href="https://www.atlascloud.ai?ref=JPM683">Atlas Cloud</a> 上运行</i>
+  <i>最近更新：2026年3月 | 所有测试在 <a href="https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=nsfw-ai-model-comparison">Atlas Cloud</a> 上运行</i>
 </p>
